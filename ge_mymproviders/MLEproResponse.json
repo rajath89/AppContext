@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "AccountNumber": "1234",
+      "ADX": "asdf123",
+      "Balance": 1000,
+      "AccountType": "ML"
+    },
+    {
+      "AccountNumber": "5678",
+      "ADX": "asdf568",
+      "Balance": 2000,
+      "AccountType": "ML"
+    },
+    {
+      "AccountNumber": "3456",
+      "ADX": "asdf345",
+      "Balance": 6000,
+      "AccountType": "ML"
+    }
+  ],
+  "customer": {
+
+    "FullName": "testUserML1",
+    "PrimaryEmailAddress": "testUserML1@gmail.com"
+  },
+  "GUID": "FAE04EC0-301F-11D3-BF4B-00C04F79GHML"
+}
