@@ -8,6 +8,11 @@ namespace ge_ustproviders
 {
     public class AccountProvider : AccountProviderBase
     {
+        public override List<AccountGroup> GetAccountGroups()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public override List<ge_core.Coretypes.Account> GetAccounts()
         {
             List<ge_core.Coretypes.Account> accounts = null;

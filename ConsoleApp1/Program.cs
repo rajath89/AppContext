@@ -18,6 +18,19 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello, World!");
 
+            //var testc = ServiceProviderManager<OAPortfolioServiceProviderBase>.Provider;
+            //testc.GetGoals("");
+            //var conf = ServiceProviderManager<OAPortfolioServiceProviderBase>.ServiceConfig;
+
+
+            //var testc = ServiceProviderManager<EmployeeServiceProviderBase>.Provider;
+            //var resp = testc.GetDataUsingDataContract(new ServiceReference1.Employee());
+            //var conf = ServiceProviderManager<OAPortfolioServiceProviderBase>.ServiceConfig;
+
+            //var client1 = new ServiceReference1.Service1Client();
+            //var resp = client1.GetDataUsingDataContract(new ServiceReference1.Employee());
+            //Console.WriteLine(resp);
+
             var obj = Util.GetConfigObj();
 
             var cache = SimpleCache<Session>.Instance;
@@ -35,6 +48,7 @@ namespace ConsoleApp1
 
             var accounts = accountContext.GetAllAccounts();
             Console.WriteLine(JsonConvert.SerializeObject(accounts));
+            Console.WriteLine(JsonConvert.SerializeObject(accountContext.GetAccountGroups()));
             var client = clientContext.GetClientDetails();
             Console.WriteLine(JsonConvert.SerializeObject(client));
 

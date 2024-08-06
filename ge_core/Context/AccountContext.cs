@@ -32,5 +32,27 @@ namespace ge_core.Context
 
             return accounts;
         }
+
+        public List<AccountGroup> GetAccountGroups()
+        {
+            List<AccountGroup> accountGrp = null;
+
+            var accountGrpContextItems = PlatformContextAccessor.AccountGroupContextItemsData;
+
+            if (accountGrpContextItems != null)
+            {
+                Console.WriteLine("session is present");
+                accountGrp = accountGrpContextItems.AccountGroups;
+            }
+            else
+            {
+                Console.WriteLine("session is not present, calling provider");
+                accountGrp = DataProviderManager<AccountProviderBase>.Provider.GetAccountGroups();
+            }
+
+
+            return accountGrp;
+        }
+
     }
 }

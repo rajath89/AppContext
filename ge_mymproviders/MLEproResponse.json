@@ -24,5 +24,35 @@
     "FullName": "testUserML1",
     "PrimaryEmailAddress": "testUserML1@gmail.com"
   },
+  "AccountDisplayGroup": {
+      "Categories": [
+        {
+          "CategoryName": "Inv non retirement",
+          "CategorySeqNum": 1
+        },
+        {
+          "CategoryName": "Inv retirement",
+          "CategorySeqNum": 2
+        },
+        {
+          "CategoryName": "MEGI",
+          "CategorySeqNum": 3
+        }
+      ],
+      "Accounts": [
+        {
+          "AccountCategory": "Inv non retirement",
+          "AccountNumber": "5678"
+        },
+        {
+          "AccountCategory": "Inv retirement",
+          "AccountNumber": "1234"
+        },
+        {
+          "AccountCategory": "MEGI",
+          "AccountNumber": "3456"
+        }
+      ]
+    },
   "GUID": "FAE04EC0-301F-11D3-BF4B-00C04F79GHML"
 }

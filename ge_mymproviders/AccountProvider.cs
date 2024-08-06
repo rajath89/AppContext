@@ -11,6 +11,28 @@ namespace ge_mymproviders
 {
     public class AccountProvider : AccountProviderBase
     {
+        public override List<AccountGroup> GetAccountGroups()
+        {
+            List<AccountGroup> accounts = null;
+
+            var data = PlatformContextAccessor.AccountGroupContextItemsData;
+
+            if (data != null)
+            {
+                accounts = data.AccountGroups;
+            }
+            else
+            {
+                var profile = DataProviderManager<CustomerProfileProviderBase>.Provider.RetrieveProfile();
+                if (profile != null && profile.ResponseStatus == ResponseStatus.Success)
+                {
+                    accounts = PlatformContextAccessor.AccountGroupContextItemsData.AccountGroups;
+                }
+            }
+
+            return accounts;
+        }
+
         public override List<ge_core.Coretypes.Account> GetAccounts()
         {
             List<ge_core.Coretypes.Account> accounts = null;

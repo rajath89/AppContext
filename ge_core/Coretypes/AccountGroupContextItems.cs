@@ -9,5 +9,7 @@ namespace ge_core.Coretypes
     public class AccountGroupContextItems
     {
         public List<Account> AllAccounts { get; set; }
+
+        public List<AccountGroup> AccountGroups { get; set; }
     }
 }

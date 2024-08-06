@@ -12,5 +12,7 @@ namespace ge_core.Base
         protected AccountProviderBase() { }
 
         public abstract List<Account> GetAccounts();
+
+        public abstract List<AccountGroup> GetAccountGroups();
     }
 }

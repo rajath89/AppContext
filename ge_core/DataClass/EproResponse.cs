@@ -11,6 +11,8 @@ namespace ge_core.DataClass
         public Account[] accounts { get; set; }
         public Customer customer { get; set; }
 
+        public AccountDisplayGroup AccountDisplayGroup { get; set; }
+
         public string GUID { get; set; }
     }
 
@@ -27,4 +29,25 @@ namespace ge_core.DataClass
         public int Balance { get; set; }
         public string AccountType { get; set; }
     }
+
+    public class AccountDisplayGroup
+    {
+        public AccountCategory[] Categories { get; set; }
+        public Accounts[] Accounts { get; set; }
+    }
+
+    public class AccountCategory
+    {
+        public string CategoryName { get; set; }
+
+        public int CategorySeqNum { get; set; }
+    }
+
+    public class Accounts
+    {
+        public string AccountCategory { get; set; }
+
+        public string AccountNumber { get; set; }
+    }
+
 }

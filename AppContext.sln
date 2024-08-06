@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge_ustproviders", "ge_ustpr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge_mymproviders", "ge_mymproviders\ge_mymproviders.csproj", "{6AF22B7C-8065-430F-8168-6F1CFF83DDD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{984A8BDA-8FE4-4C5E-AF4B-1A71149217AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6AF22B7C-8065-430F-8168-6F1CFF83DDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AF22B7C-8065-430F-8168-6F1CFF83DDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AF22B7C-8065-430F-8168-6F1CFF83DDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984A8BDA-8FE4-4C5E-AF4B-1A71149217AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984A8BDA-8FE4-4C5E-AF4B-1A71149217AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984A8BDA-8FE4-4C5E-AF4B-1A71149217AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984A8BDA-8FE4-4C5E-AF4B-1A71149217AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

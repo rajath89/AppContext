@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coretypes\AccountGroup.cs" />
     <Compile Include="Coretypes\RetrieveProfileResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Base\BaseDataProvider.cs" />

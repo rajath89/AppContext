@@ -46,6 +46,8 @@ namespace ge_core.Base
                         //return ML instance
                         Assembly mlAssembly = Assembly.LoadFrom(Constants.GE_mymProvPath);
 
+                        var mlaccountTypes1 = mlAssembly.GetTypes();
+
                         var mlaccountTypes = mlAssembly.GetTypes()
                         .Where(t => t.IsSubclassOf(typeof(T)) && !t.IsAbstract)
                         .ToList();
