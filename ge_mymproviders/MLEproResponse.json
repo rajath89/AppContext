@@ -1,18 +1,28 @@
 {
   "accounts": [
     {
+      "AccountDisplayName": "Demo retirement Acct1",
       "AccountNumber": "1234",
       "ADX": "asdf123",
       "Balance": 1000,
       "AccountType": "ML"
     },
     {
+      "AccountDisplayName": "Demo non retirement Acct1",
       "AccountNumber": "5678",
       "ADX": "asdf568",
       "Balance": 2000,
       "AccountType": "ML"
     },
     {
+      "AccountDisplayName": "Demo non retirement Acct2",
+      "AccountNumber": "1357",
+      "ADX": "asdf257",
+      "Balance": 50000,
+      "AccountType": "ML"
+    },
+    {
+      "AccountDisplayName": "Demo MEGI Acct1",
       "AccountNumber": "3456",
       "ADX": "asdf345",
       "Balance": 6000,
@@ -51,6 +61,10 @@
         {
           "AccountCategory": "MEGI",
           "AccountNumber": "3456"
+        },
+        {
+          "AccountCategory": "Inv non retirement",
+          "AccountNumber": "1357"
         }
       ]
     },

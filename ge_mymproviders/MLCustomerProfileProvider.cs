@@ -145,6 +145,7 @@ namespace ge_mymproviders
                         account.AccountType = item.AccountType;
                         account.ADX = item.ADX;
                         account.Balance = item.Balance;
+                        account.AccountDisplayName = item.AccountDisplayName;
 
                         accountDictionary.Add(item.AccountNumber, account);
                         accounts.Add(account);

@@ -8,6 +8,7 @@ namespace ge_core.Coretypes
 {
     public class Account
     {
+        public string AccountDisplayName { get; set; }
         public string AccountNumber { get; set; }
 
         public string ADX { get; set; }

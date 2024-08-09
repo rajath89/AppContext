@@ -24,6 +24,7 @@ namespace ge_core.DataClass
 
     public class Account
     {
+        public string AccountDisplayName { get; set; }
         public string AccountNumber { get; set; }
         public string ADX { get; set; }
         public int Balance { get; set; }
